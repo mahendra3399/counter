@@ -1,0 +1,80 @@
+body {
+    background-image: url(https://c0.wallpaperflare.com/path/126/703/577/restaurant-tea-counter-menu-88853b829a12dabdee37ac7f0709789d.jpg);
+    background-size: cover;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 350px;
+    height: 210px;
+    position: absolute;
+    top: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(189, 177, 177);
+    border-radius: 20px;
+}
+.count {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b1 {
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 6px;
+    margin-left: 60px;
+    cursor: pointer;
+
+}
+.b2 {
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 6px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+
+.remain {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    font-size: 25px;
+}
+
